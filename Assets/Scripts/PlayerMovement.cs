@@ -10,8 +10,13 @@ public class PlayerMovement : MonoBehaviour
     
     public Rigidbody2D rb;
     public float speed;
+    private bool _isFacingRight;
+
+    private float _jumpForce = 5f;
     
-    
+    public Transform groundCheck;
+    public LayerMask groundMask;
+    public float groundCheckRadius;
     void Awake()
     {
         
@@ -20,6 +25,22 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         _x = Input.GetAxisRaw("Horizontal");
+        
+        if (_x > 0 && !_isFacingRight)
+            Flip();
+        if (_x < 0 && _isFacingRight)
+            Flip();
+        
+        if (isGrounded() && Input.GetButtonDown("Jump"))
+        {
+            rb.velocity = Vector2.up * _jumpForce; 
+        }
+    }
+
+    private void Flip()
+    {
+        _isFacingRight = !_isFacingRight;
+        transform.Rotate(0, 180f, 0);
     }
 
     private void FixedUpdate()
@@ -30,5 +51,10 @@ public class PlayerMovement : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         
+    }
+
+    bool isGrounded()
+    {
+        return Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundMask);
     }
 }

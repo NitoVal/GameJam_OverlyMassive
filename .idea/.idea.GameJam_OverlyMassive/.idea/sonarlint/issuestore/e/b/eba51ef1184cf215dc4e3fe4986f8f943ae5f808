@@ -1,6 +1,10 @@
 
-pcsharpsquid:S3903"-Move 'PlayerMovement' into a named namespace.(É»áJ$9a173629-758d-480c-917d-5257617a1008
-Ácsharpsquid:S1186"yAdd a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.(¥ÖÉûÿÿÿÿJ$ce509891-530f-4a4d-9335-7b385645f276
-Ãcsharpsquid:S1186"yAdd a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.(Š×€8Éçëë•2J$58b80312-2fa4-46f1-b57f-9b74de975ee2
-“csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(‰ñ‹ëúÿÿÿÿ8•‘åë•2J$48adef7c-9db3-40ee-b400-4916bc6a93f9
-csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(şÜ’™8ñÑôë•2J$81f4e2ef-83d0-4ecb-9e54-e097e8bc9300
+pcsharpsquid:S3903"-Move 'PlayerMovement' into a named namespace.(É»áJ$40b4515f-b0d7-4603-8b79-16a8c808aa98
+Ácsharpsquid:S1186"yAdd a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.(¥ÖÉûÿÿÿÿJ$42c490ee-7dbe-40f0-86c6-f539dd989b1a
+Ãcsharpsquid:S11863"yAdd a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.(Š×€8ªÁ«ì•2J$365f7c58-c069-438a-82bb-6d0bf02a358f
+gcsharpsquid:S2933"Make '_jumpForce' 'readonly'.(ğ×–§8–´µì•2J$12ac7453-ffa5-401b-a681-56cf538e7799
+“csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(‰ñ‹ëúÿÿÿÿ8•‘åë•2J$ae92c74b-fb6e-4eac-81e7-268e40a29fd7
+csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(şÜ’™8ñÑôë•2J$fa472379-e1d6-4321-a664-c29811732e6c
+“csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(†À âûÿÿÿÿ8Šİì•2J$e7053418-c076-4d18-94b6-2263eb13b686
+“csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(—±¿òûÿÿÿÿ8Šæ ì•2J$b7f82f8e-9254-4a63-a0ad-f082b37916ba
+“csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(¯¤½Ìúÿÿÿÿ8Šæ ì•2J$00ee239d-2a2c-4bb9-948c-69b5bbc35105
