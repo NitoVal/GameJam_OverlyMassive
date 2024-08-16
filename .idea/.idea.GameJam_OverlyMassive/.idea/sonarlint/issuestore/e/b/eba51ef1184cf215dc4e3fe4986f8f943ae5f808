@@ -1,0 +1,6 @@
+
+pcsharpsquid:S3903"-Move 'PlayerMovement' into a named namespace.(É»áJ$9a173629-758d-480c-917d-5257617a1008
+Ácsharpsquid:S1186"yAdd a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.(¥ÖÉûÿÿÿÿJ$ce509891-530f-4a4d-9335-7b385645f276
+Ãcsharpsquid:S1186"yAdd a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.(Š×€8Éçëë•2J$58b80312-2fa4-46f1-b57f-9b74de975ee2
+“csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(‰ñ‹ëúÿÿÿÿ8•‘åë•2J$48adef7c-9db3-40ee-b400-4916bc6a93f9
+csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(şÜ’™8ñÑôë•2J$81f4e2ef-83d0-4ecb-9e54-e097e8bc9300
