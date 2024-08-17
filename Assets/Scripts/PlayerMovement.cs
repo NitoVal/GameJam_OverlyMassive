@@ -3,14 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMovement : Scalable
 {
-
     private float _x;
     
     [Header("Player movement param")]
-    public Rigidbody2D rb;
     public float speed;
     private bool _isFacingRight;
 
@@ -23,7 +20,6 @@ public class PlayerMovement : Scalable
     {
         
     }
-    
     void Update()
     {
         _x = Input.GetAxisRaw("Horizontal");

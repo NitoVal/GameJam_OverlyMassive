@@ -1,10 +1,9 @@
 
-ucsharpsquid:S3903"-Move 'PlayerMovement' into a named namespace.(–þøÿþÿÿÿÿJ$67f1673c-9138-4ce9-8cfe-4f33a4b40aae
-Ácsharpsquid:S1186"yAdd a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.(¥ÖžÉûÿÿÿÿJ$83ebd46b-b93b-401b-853e-53670557df4a
-Ãcsharpsquid:S11865"yAdd a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.(Šž×€8ªÁ«ì•2J$7bf76a14-4745-4d29-b08a-06b6832e7d8c
-gcsharpsquid:S2933"Make '_jumpForce' 'readonly'.(ð×–§8–´µì•2J$faa343c9-1318-44b0-b292-340930176674
-“csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(‰ñ‹ëúÿÿÿÿ8•‘åë•2J$bb0a8c08-673a-41a0-a6f7-962afa8f25c1
-Žcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(þÜ’™8ñÑôë•2J$d025bacf-1316-4d6f-9e6f-0ff68d5089d9
-“csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(†À âûÿÿÿÿ8ŠÝžì•2J$3b26059e-43b4-48e9-9ccc-da0def6cdd49
-“csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(—±¿òûÿÿÿÿ8Šæ ì•2J$60ff4f08-b563-416a-be09-15a65db79555
-“csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(¯¤½Ìúÿÿÿÿ8Šæ ì•2J$8c4257db-8d47-4c06-b5b9-99e850b14e87
+ucsharpsquid:S3903"-Move 'PlayerMovement' into a named namespace.(–þøÿþÿÿÿÿJ$e3d38287-a03e-48b9-955c-b37b995b3da9
+Ácsharpsquid:S1186"yAdd a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.(¥ÖžÉûÿÿÿÿJ$6cc9b88f-7932-48e2-b049-ebf61c241e11
+Ãcsharpsquid:S11861"yAdd a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.(Šž×€8ªÁ«ì•2J$834e253a-8071-4387-b195-eb56cb980d0c
+gcsharpsquid:S2933"Make '_jumpForce' 'readonly'.(ð×–§8–´µì•2J$e95255ad-f6ad-484a-b557-b8933f6de6fe
+Žcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(þÜ’™8ñÑôë•2J$6d7bf457-bbe7-4592-9c32-c166242250ea
+“csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(†À âûÿÿÿÿ8ŠÝžì•2J$dcf52c1a-efd4-4c1c-bc98-b4e4300b8a8a
+“csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(—±¿òûÿÿÿÿ8Šæ ì•2J$31602e1b-b61e-4e09-b76a-9f0be2354937
+“csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(¯¤½Ìúÿÿÿÿ8Šæ ì•2J$a33c73fc-73be-4bc3-b01b-34b4ea49f712
