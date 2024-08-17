@@ -1,0 +1,4 @@
+
+pcsharpsquid:S3903"(Move 'PauseMenu' into a named namespace.(“”‰ôüÿÿÿÿJ$6e78ea57-2b2b-4893-b171-881c3d10821a
+Žcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(Ù©†Ó8É›­ý•2J$881c608d-cc57-44be-8c85-e4bdaf253fe7
+§csharpsquid:S1450	"XRemove the field '_isPaused' and declare it as a local variable in the relevant methods.(úÞþãýÿÿÿÿ8‘¤¯ý•2J$b2c764d7-b1a4-41cd-b0b8-2f10b51d4118

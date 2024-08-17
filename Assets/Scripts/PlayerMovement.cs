@@ -46,11 +46,6 @@ public class PlayerMovement : Scalable
         rb.velocity = new Vector2(_x * speed, rb.velocity.y);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        
-    }
-
     bool isGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundMask);

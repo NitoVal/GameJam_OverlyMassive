@@ -7,6 +7,7 @@ using UnityEngine.Serialization;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Scalable : MonoBehaviour
 {
+    private const float Rate = 0.05f;
     [Header("Scalable params")] 
     public Rigidbody2D rb;
     
@@ -30,8 +31,8 @@ public class Scalable : MonoBehaviour
         }
 
         rb.mass += 2f;
-        _currentSizeX += .1f;
-        _currentSizeY += .1f;
+        _currentSizeX += Rate;
+        _currentSizeY += Rate;
         transform.localScale = new Vector3(_currentSizeX, _currentSizeY, 0f);
     }
 
@@ -44,8 +45,8 @@ public class Scalable : MonoBehaviour
         }
 
         rb.mass -= 2f;
-        _currentSizeX -= .1f;
-        _currentSizeY -= .1f;
+        _currentSizeX -= Rate;
+        _currentSizeY -= Rate;
         transform.localScale = new Vector3(_currentSizeX, _currentSizeY, 0f);
     }
 

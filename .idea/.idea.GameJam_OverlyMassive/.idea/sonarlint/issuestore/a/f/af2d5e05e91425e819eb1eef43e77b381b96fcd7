@@ -1,0 +1,8 @@
+
+tcsharpsquid:S3903",Move 'ScalePlatform' into a named namespace.(”ş«ØøÿÿÿÿJ$bf9eb289-e976-4f30-aa62-99f4f08fbe3b
+Ácsharpsquid:S1186"yAdd a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.(¥ÖÉûÿÿÿÿJ$ee3be931-4104-403c-8194-24c27d3420d8
+csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(×£Ø8ïÒÊ‚–2J$cdf15f18-c726-4f57-8633-742d881d1b48
+“csharpsquid:S1104	"DMake this field 'private' and encapsulate it in a 'public' property.(œÙõƒûÿÿÿÿ8‹˜Ò‚–2J$84d49668-594b-417d-a78e-d80f0e48412e
+“csharpsquid:S1104
+"DMake this field 'private' and encapsulate it in a 'public' property.(©ìáÈşÿÿÿÿ8–á‚–2J$44ceb23e-b177-455f-8831-b08e06bac719
+“csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(‰ñ‹ëúÿÿÿÿ8’üè‚–2J$0b13cb28-e285-427c-b89c-3272d6e4fc47

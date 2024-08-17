@@ -1,9 +1,8 @@
 
-ucsharpsquid:S3903"-Move 'PlayerMovement' into a named namespace.(–þøÿþÿÿÿÿJ$e3d38287-a03e-48b9-955c-b37b995b3da9
-Ácsharpsquid:S1186"yAdd a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.(¥ÖžÉûÿÿÿÿJ$6cc9b88f-7932-48e2-b049-ebf61c241e11
-Ãcsharpsquid:S11861"yAdd a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.(Šž×€8ªÁ«ì•2J$834e253a-8071-4387-b195-eb56cb980d0c
-gcsharpsquid:S2933"Make '_jumpForce' 'readonly'.(ð×–§8–´µì•2J$e95255ad-f6ad-484a-b557-b8933f6de6fe
-Žcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(þÜ’™8ñÑôë•2J$6d7bf457-bbe7-4592-9c32-c166242250ea
-“csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(†À âûÿÿÿÿ8ŠÝžì•2J$dcf52c1a-efd4-4c1c-bc98-b4e4300b8a8a
-“csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(—±¿òûÿÿÿÿ8Šæ ì•2J$31602e1b-b61e-4e09-b76a-9f0be2354937
-“csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(¯¤½Ìúÿÿÿÿ8Šæ ì•2J$a33c73fc-73be-4bc3-b01b-34b4ea49f712
+ucsharpsquid:S3903"-Move 'PlayerMovement' into a named namespace.(–þøÿþÿÿÿÿJ$9429a3de-aa8c-4218-851d-f2feba695206
+Ácsharpsquid:S1186"yAdd a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.(¥ÖžÉûÿÿÿÿJ$ade7658b-9c84-4344-a904-fcf77683b475
+gcsharpsquid:S2933"Make '_jumpForce' 'readonly'.(ð×–§8–´µì•2J$40903540-a8a4-4378-940f-f8edc2a535b1
+Žcsharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(þÜ’™8ñÑôë•2J$c63bd6e4-8659-4a4a-be60-5d60387a1148
+“csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(†À âûÿÿÿÿ8ŠÝžì•2J$094b3536-c97a-4be8-81e2-0b8c5268ab29
+“csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(—±¿òûÿÿÿÿ8Šæ ì•2J$a2e525d2-50bd-4d78-a0f0-6bca04fb2cb5
+“csharpsquid:S1104"DMake this field 'private' and encapsulate it in a 'public' property.(¯¤½Ìúÿÿÿÿ8Šæ ì•2J$85cb77c4-b869-413e-b7a7-a89a92e92609
