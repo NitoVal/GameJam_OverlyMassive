@@ -8,16 +8,20 @@ using UnityEngine.Serialization;
 public class Scalable : MonoBehaviour
 {
     private const float Rate = 0.05f;
+    
     [Header("Scalable params")] 
     public Rigidbody2D rb;
     
     public float minSize;
     public float maxSize;
+
+    private SpriteRenderer _renderer;
     private float _currentSizeX;
     private float _currentSizeY;
 
     private void Start()
     {
+        _renderer = GetComponentInChildren<SpriteRenderer>();
         _currentSizeX = transform.localScale.x;
         _currentSizeY = transform.localScale.y;
     }
@@ -29,7 +33,8 @@ public class Scalable : MonoBehaviour
             transform.localScale = new Vector3(maxSize, maxSize, 0f);
             return;
         }
-
+        //_renderer.color = Color.blue;
+        
         rb.mass += 2f;
         _currentSizeX += Rate;
         _currentSizeY += Rate;
@@ -43,7 +48,8 @@ public class Scalable : MonoBehaviour
             transform.localScale = new Vector3(minSize, minSize, 0f);
             return;
         }
-
+        //_renderer.color = Color.red;
+        
         rb.mass -= 2f;
         _currentSizeX -= Rate;
         _currentSizeY -= Rate;
@@ -56,5 +62,10 @@ public class Scalable : MonoBehaviour
             Enlarge();
         if (other.gameObject.CompareTag("ShrinkPad"))
             Shrink();
+    }
+
+    private void OnBecameInvisible()
+    {
+        gameObject.SetActive(false);
     }
 }

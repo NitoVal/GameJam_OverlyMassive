@@ -12,25 +12,21 @@ public class PressurePlate : MonoBehaviour
     
     public static event Action<int> onActivate;
     public static event Action<int> onDeactivate;
-    void Awake()
-    {
-        
-    }
 
-    private void Update()
+    void UpdatePlate()
     {
         if (currentWeight >= minMassRequired && currentWeight <= maxMass)
             onActivate?.Invoke(activateIndex);
         else
             onDeactivate?.Invoke(activateIndex);
     }
-
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.collider.attachedRigidbody)
         {
             currentWeight += other.collider.attachedRigidbody.mass;
             other.collider.gameObject.transform.SetParent(transform, true);
+            UpdatePlate();
         }
     }
 
@@ -40,6 +36,7 @@ public class PressurePlate : MonoBehaviour
         {
             currentWeight -= other.collider.attachedRigidbody.mass;
             other.collider.gameObject.transform.SetParent(null);
+            UpdatePlate();
         }
     }
     private void OnApplicationQuit()
