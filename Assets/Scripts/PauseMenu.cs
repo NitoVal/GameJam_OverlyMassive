@@ -16,6 +16,17 @@ public class PauseMenu : MonoBehaviour
         pauseCanvas.SetActive(_isPaused);
     }
 
+    private void Update()
+    {
+        if (Input.GetButtonDown("Cancel"))
+        {
+            if (_isPaused)
+                Resume();
+            else
+                Pause();
+        }
+    }
+
     public void Pause()
     {
         _isPaused = true;
@@ -32,11 +43,14 @@ public class PauseMenu : MonoBehaviour
 
     public void Restart()
     {
+        _isPaused = false;
+        Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void ExitMainMenu()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");
     }
 
