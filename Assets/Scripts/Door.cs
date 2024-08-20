@@ -15,21 +15,16 @@ public class Door : MonoBehaviour
     private void OnEnable()
     {
         PressurePlate.onActivate += OpenDoor;
-        PressurePlate.onDeactivate += CloseDoor;
     }
 
     private void OnDisable()
     {
         PressurePlate.onActivate -= OpenDoor;
-        PressurePlate.onDeactivate -= CloseDoor;
     }
 
     private void Update()
     {
-        if (_isOpen)
-            gameObject.SetActive(false);
-        else
-            gameObject.SetActive(true);
+        gameObject.SetActive(!_isOpen);
     }
 
     private void OpenDoor(int activationId)
@@ -38,13 +33,6 @@ public class Door : MonoBehaviour
             return;
 
         _isOpen = true;
-    }
-
-    private void CloseDoor(int activationId)
-    {
-        if (id != activationId)
-            return;
-
-        _isOpen = false;
+        AudioManager.Audio.PlaySound("OpenDoor");
     }
 }

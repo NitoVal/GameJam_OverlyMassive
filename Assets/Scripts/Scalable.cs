@@ -64,7 +64,7 @@ public class Scalable : MonoBehaviour
             Shrink();
     }
 
-    private void OnBecameInvisible()
+    protected virtual void OnBecameInvisible()
     {
         gameObject.SetActive(false);
     }

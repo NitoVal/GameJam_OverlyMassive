@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2593365863581321164}
   - component: {fileID: 269229626696663305}
   - component: {fileID: 1014844998361534415}
+  - component: {fileID: 656898244937711738}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -58,3 +59,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf2cb0247379df24aa8fd0b70110f40f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &656898244937711738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8433321627276241607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 423959503dfb132469b5e4f8b962498b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - audioClip: {fileID: 8300000, guid: 211ff9f76dd821f46b4134b7d06537eb, type: 3}
+    nomClip: CoinPickup
+  - audioClip: {fileID: 8300000, guid: 03fc055bc0d6c2a49978a616ceecd621, type: 3}
+    nomClip: Jump
+  - audioClip: {fileID: 8300000, guid: eb66716a5826f9a4fbb6e5d2c35afcef, type: 3}
+    nomClip: OpenDoor

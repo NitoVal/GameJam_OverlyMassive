@@ -11,11 +11,13 @@ public class PlayerMovement : Scalable
     public float speed;
     private bool _isFacingRight;
 
-    private float _jumpForce = 5f;
-    
+    private const float JumpForce = 7.5f;
+
     public Transform groundCheck;
     public LayerMask groundMask;
     public float groundCheckRadius;
+
+    public Transform respawnPoint;
     void Awake()
     {
         
@@ -29,9 +31,10 @@ public class PlayerMovement : Scalable
         if (_x < 0 && _isFacingRight)
             Flip();
         
-        if (isGrounded() && Input.GetButtonDown("Jump"))
+        if (IsGrounded() && Input.GetButtonDown("Jump"))
         {
-            rb.velocity = Vector2.up * _jumpForce; 
+            rb.velocity = Vector2.up * JumpForce; 
+            AudioManager.Audio.PlaySound("Jump");
         }
     }
 
@@ -46,8 +49,16 @@ public class PlayerMovement : Scalable
         rb.velocity = new Vector2(_x * speed, rb.velocity.y);
     }
 
-    bool isGrounded()
+    private bool IsGrounded()
     {
         return Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundMask);
+    }
+
+    protected override void OnBecameInvisible()
+    {
+        rb.velocity = Vector2.zero;
+        
+        if (respawnPoint)
+            transform.position = respawnPoint.position;
     }
 }

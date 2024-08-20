@@ -27,7 +27,7 @@ public class PauseMenu : MonoBehaviour
         }
     }
 
-    public void Pause()
+    private void Pause()
     {
         _isPaused = true;
         pauseCanvas.SetActive(_isPaused);
@@ -37,15 +37,15 @@ public class PauseMenu : MonoBehaviour
     public void Resume()
     {
         _isPaused = false;
-        pauseCanvas.SetActive(_isPaused);
         Time.timeScale = 1f;
+        pauseCanvas.SetActive(_isPaused);
     }
 
     public void Restart()
     {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         _isPaused = false;
         Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void ExitMainMenu()
